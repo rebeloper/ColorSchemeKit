@@ -1,4 +1,4 @@
-# ColorSchemeKit
+# 🔦 ColorSchemeKit
 
 ![swift v5.3](https://img.shields.io/badge/swift-v5.3-orange.svg)
 ![platform iOS](https://img.shields.io/badge/platform-iOS-blue.svg)
