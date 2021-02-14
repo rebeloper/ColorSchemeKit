@@ -36,7 +36,7 @@ Here's the list of the awesome features `ColorSchemeKit` has:
 
 ## ⚙️ Setup
 
-You want to set up `ColorSchemeKit` only `once` and on the `parent view` of your app. Simply add the `.usesColorSchemeKit()` view modifier to your parent view. **This needs to be done only once!**
+You want to set up `ColorSchemeKit` by adding your Base View inside the `ColorSchemeKitView`:
 
 ```
 import SwiftUI
@@ -46,7 +46,9 @@ import ColorSchemeKit
 struct ColorSchemeKitDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView().usesColorSchemeKit()
+            ColorSchemeKitView {
+                ContentView()
+            }
         }
     }
 }
